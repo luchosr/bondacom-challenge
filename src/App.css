@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -30,4 +31,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navigation-bottom {
+  align-items: flex-end;
+  background-color: #8d4ac7;
+  height: 45px;
 }
