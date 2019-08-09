@@ -5,6 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^4.3.1",
     "@material-ui/icons": "^4.2.1",
+    "@material/icon-button": "^3.1.0",
+    "material-design-icons": "^3.0.1",
+    "material-icons-react": "^1.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-material-design": "^0.4.3",

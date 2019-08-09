@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 const Card = () => {
   return (
@@ -10,3 +11,4 @@ const Card = () => {
     </div>
   );
 };
+export default Card;
