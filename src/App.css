@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* @import "@material/icon-button/mdc-icon-button"; */
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -30,4 +37,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #282c34;
+}
+.home ul {
+  margin: 15px 20px;
+}
+.navigation-bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: #8d4ac7;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.card-container {
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid #282c34;
 }
