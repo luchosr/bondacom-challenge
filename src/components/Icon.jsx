@@ -9,7 +9,7 @@ const Icon = props => {
         display: "flex",
         flexDirection: "column",
         width: "60px",
-        padding: "20px",
+        padding: "10px",
         color: "#fafafa"
       }}
     >
