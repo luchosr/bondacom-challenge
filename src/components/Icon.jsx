@@ -1,7 +1,7 @@
 import React from "react";
 import MaterialIcon from "material-icons-react";
 
-const Icon = props => {
+const Icon = ({ icon, size, label }) => {
   return (
     <div
       className="icon-container"
@@ -13,9 +13,10 @@ const Icon = props => {
         color: "#fafafa"
       }}
     >
-      <MaterialIcon icon={props.icon} size={props.size} />
-      <label htmlFor={props.label} style={{ fontSize: "12px" }}>
-        {props.label}
+      {/* < {icon}/> */}
+
+      <label htmlFor={label} style={{ fontSize: "12px" }}>
+        {label}
       </label>
     </div>
   );

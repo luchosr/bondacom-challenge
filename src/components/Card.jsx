@@ -5,7 +5,7 @@ const Card = ({ tag, title, partner, expDate, category, imgUrl }) => {
   return (
     <div className="card-container">
       <div className="card-container-description">
-        <h2>0%</h2>
+        <h2>0% tag*</h2>
         <h5>Card Title | dos lineas como máximo</h5>
         <div className="partner-text">
           <img
@@ -13,9 +13,9 @@ const Card = ({ tag, title, partner, expDate, category, imgUrl }) => {
             alt=""
             className="partner-image"
           />
-          <h6> Nombre partner</h6>
-
-          <h6>fecha vencimiento y aca iría el reminder</h6>
+          {partner !== "null" && <h6>{partner}</h6>}
+          {category !== "null" && <h6>{category}</h6>}
+          <h6>fecha vencimiento* </h6> <h6>y aca iría el reminder*</h6>
         </div>
       </div>
       <div className="card-container-image">
