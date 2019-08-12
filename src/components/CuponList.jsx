@@ -1,8 +1,6 @@
 import React from "react";
 import "../App.css";
 import Card from "./Card";
-import MaterialIcon from "material-icons-react";
-import { MDCRipple } from "@material/ripple";
 import Icon from "./Icon";
 
 const CuponList = () => {
@@ -10,9 +8,17 @@ const CuponList = () => {
   return (
     <div className="home">
       <h1>Mi Billetera</h1>
-      <ul>
-        <Card />
-      </ul>
+      <div className="home-list-container">
+        <ul>
+          <Card />
+          <Card />
+
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </ul>
+      </div>
 
       <div className="navigation-bottom">
         <Icon icon="home" label="Home" size="30" />

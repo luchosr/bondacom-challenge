@@ -9,56 +9,53 @@
   height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .home {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid #282c34;
+}
+.home h1 {
+  margin-bottom: 10px;
+}
+.home-list-container {
+  height: 90vh;
+  overflow: auto;
 }
 .home ul {
-  margin: 15px 20px;
+  margin: 15px 5px;
 }
 .navigation-bottom {
+  position: absolute;
+  bottom: 0;
   display: flex;
   flex-direction: row;
   background-color: #8d4ac7;
-  height: 80px;
+  height: 60px;
   justify-content: space-around;
 }
 
 .card-container {
-  border-radius: 5px;
-  padding: 15px;
+  min-height: 120px;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
   margin: 0 auto;
-  border: 1px solid #282c34;
+  border-bottom: 1px solid #c6c8cd;
+}
+.partner-image {
+  width: 35px;
+  height: 35px;
+}
+.card-container-description h6 {
+  padding-bottom: 5px;
+  width: 55%;
+}
+.card-container-image {
+  margin-left: 15px;
+}
+.partner-text {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
